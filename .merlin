@@ -6,3 +6,5 @@ PKG findlib
 PKG cow
 PKG omd
 PKG ezjsonm
+PKG polyglot
+PKG uri

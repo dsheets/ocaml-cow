@@ -30,6 +30,7 @@ depends: [
   "ounit" {build}
   "uri" {>= "1.3.9"}
   "xmlm" {>= "1.1.1"}
+  "polyglot"
   "omd" {>= "0.8.2"}
   "ezjsonm" {>= "0.4.0"}
   "camlp4"

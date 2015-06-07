@@ -1,4 +1,5 @@
 <lib/*> and not <lib/cow.*>: for-pack(Cow), camlp4o, use_syntax, cow_no_open
+<lib/html.*>: package(polyglot)
 <lib_test/*>: use_lib, custom
 <syntax/css/*>: for-pack(Pa_cow.Pa_css), build_syntax_r, camlp4of
 <syntax/html/*>: for-pack(Pa_cow.Pa_html), build_syntax_r, camlp4orf

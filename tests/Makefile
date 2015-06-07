@@ -1,5 +1,5 @@
 P4OPTS = $(shell ocamlfind query str dyntype dyntype.syntax ulex xmlm ezjsonm -predicates syntax,preprocessor,byte -r -format "-I %d %a")
-LINK   = $(shell ocamlfind query dyntype ulex oUnit uri xmlm ezjsonm omd -predicates archives,byte -r -format "-I %d %a")
+LINK   = $(shell ocamlfind query dyntype ulex oUnit uri xmlm ezjsonm polyglot omd -predicates archives,byte -r -format "-I %d %a")
 TESTS  = render extension
 MAIN   = test
 
